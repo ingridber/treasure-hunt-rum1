@@ -85,4 +85,44 @@ treasure5.addEventListener("click", () => {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
+
 });
+const treasure6 = document.getElementById("treasure6");
+treasure6.addEventListener("click", () => {
+  treasure6.style.color = "red";
+  foundCount++;
+  foundCountEl.textContent = foundCount;
+  alert("Grattis! Du hittade en skatt!");
+
+  if (foundCount === 6) {
+    clearInterval(timer);
+    alert("Alla skatter hittade på " + time + " sekunder!");
+  }
+});
+
+const treasure7 = document.getElementById("treasure7");
+treasure7.addEventListener("click", () => {
+  treasure7.style.color = "red";
+  foundCount++;
+  foundCountEl.textContent = foundCount;
+  alert("Grattis! Du hittade en skatt!");
+
+  if (foundCount === 7) {
+    clearInterval(timer);
+    alert("Alla skatter hittade på " + time + " sekunder!");
+  }
+});
+
+const treasure8 = document.getElementById("treasure8");
+treasure8.addEventListener("click", () => {
+  treasure8.style.color = "red";
+  foundCount++;
+  foundCountEl.textContent = foundCount;
+  alert("Grattis! Du hittade en skatt!");
+
+  if (foundCount === 8) {
+    clearInterval(timer);
+    alert("Alla skatter hittade på " + time + " sekunder!");
+  }
+});
+
