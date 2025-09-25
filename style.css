@@ -1,3 +1,13 @@
+body{
+  background-color: sandybrown;
+}
+section{
+  background-color: whitesmoke;
+}
+#treasure7:hover{
+  color: sandybrown;
+}
+
 .treasure:hover {
   font-size: 15pt;
   color: purple;
@@ -7,6 +17,11 @@ h4 {
   font-size: 30pt;
 }
 
+h1{
+  padding-top: 5%;
+  text-align: center;
+  margin: auto;
+}
 #treasure3:hover, #treasure5:hover {
   font-size: 30pt;
 }
@@ -45,4 +60,13 @@ img {
       display: flex;
       justify-content: space-between;
       font-weight: bold;
+    }
+
+        .foot {
+      height: 50px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
     }
