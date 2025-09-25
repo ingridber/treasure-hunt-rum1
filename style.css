@@ -1,4 +1,38 @@
+.treasure:hover {
+  font-size: 15pt;
+  color: purple;
+}
 
+h4 {
+  font-size: 30pt;
+}
+
+#treasure3:hover, #treasure5:hover {
+  font-size: 30pt;
+}
+
+#treasure4:hover{
+  opacity: 0.5;
+}
+
+.hint {
+  font-size: 12;
+  font-style: oblique;
+  color: blue;
+}
+
+img {
+  width: 150px;
+}
+
+.boxTreasures, .boxplaces {
+  display: flex;
+}
+
+.boxTreasures div, .boxplaces div {
+  background-color: aquamarine;
+  margin: 4%;
+}
 
 #hud {
       position: fixed;
