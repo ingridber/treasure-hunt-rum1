@@ -22,11 +22,12 @@ treasure1.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 5) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
+  }, {once: true}
+);
 
 // ... fortsätt för alla skatter ...
 
@@ -38,13 +39,12 @@ treasure2.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 5) {
+  if (foundCount ===8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
-
-
+  }, {once: true}
+);
 
 const treasure3 = document.getElementById("treasure3");
 treasure3.addEventListener("click", () => {
@@ -53,12 +53,11 @@ treasure3.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 5) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
-
+}, {once: true});
 
 const treasure4 = document.getElementById("treasure4");
 treasure4.addEventListener("click", () => {
@@ -67,12 +66,11 @@ treasure4.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 5) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
-
+}, {once: true});
 
 const treasure5 = document.getElementById("treasure5");
 treasure5.addEventListener("click", () => {
@@ -81,12 +79,12 @@ treasure5.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 5) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
+}, {once: true});
 
-});
 const treasure6 = document.getElementById("treasure6");
 treasure6.addEventListener("click", () => {
   treasure6.style.color = "red";
@@ -94,11 +92,11 @@ treasure6.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 6) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
+}, {once: true});
 
 const treasure7 = document.getElementById("treasure7");
 treasure7.addEventListener("click", () => {
@@ -107,11 +105,11 @@ treasure7.addEventListener("click", () => {
   foundCountEl.textContent = foundCount;
   alert("Grattis! Du hittade en skatt!");
 
-  if (foundCount === 7) {
+  if (foundCount === 8) {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
+}, {once: true});
 
 const treasure8 = document.getElementById("treasure8");
 treasure8.addEventListener("click", () => {
@@ -124,5 +122,5 @@ treasure8.addEventListener("click", () => {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-});
+}, {once: true});
 
