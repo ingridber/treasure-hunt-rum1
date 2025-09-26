@@ -43,8 +43,7 @@ treasure2.addEventListener("click", () => {
     clearInterval(timer);
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
-  }, {once: true}
-);
+  }, {once: true});
 
 const treasure3 = document.getElementById("treasure3");
 treasure3.addEventListener("click", () => {
@@ -85,6 +84,7 @@ treasure5.addEventListener("click", () => {
   }
 }, {once: true});
 
+
 const treasure6 = document.getElementById("treasure6");
 treasure6.addEventListener("click", () => {
   treasure6.style.color = "red";
@@ -123,4 +123,5 @@ treasure8.addEventListener("click", () => {
     alert("Alla skatter hittade på " + time + " sekunder!");
   }
 }, {once: true});
+
 
